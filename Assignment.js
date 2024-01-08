@@ -1,7 +1,7 @@
 let arr=[1,2,3,4];
 //var num=arr[1];
 
-function checkprimearray(arr2)
+function checkprime(arr2)
 {
     var num=arr2[1];
 
@@ -16,7 +16,7 @@ flag=flag+1;
     }}
     return flag;
 }
-result= checkprimearray(arr);
+result= checkprime(arr);
 
 
     if(result==2)
@@ -84,4 +84,12 @@ for(i=0; i<=15; i++)
     }
 }
 
-    // 
+    // sum of squeres
+
+    let sumarray=[1,5,6,3];
+    let sum=0;
+    for( k=0; k<sumarray.length;k++)
+    {
+        sum=sum+(sumarray[k]*sumarray[k])
+    }
+console.log(sum);
